@@ -1,0 +1,39 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "making CURD operations using basic authentication",
+  "main": "app.js ",
+  "scripts": {
+    "start":"node pm2.js & json-server --watch data.json --port 3004"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koushik-kasetty/itpeoplecorp-TODO.git"
+  },
+  "author": "koushik.kasetty@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koushik-kasetty/itpeoplecorp-TODO/issues"
+  },
+  "homepage": "https://github.com/koushik-kasetty/itpeoplecorp-TODO#readme",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "body-parser": "^1.17.1",
+    "bson-objectid": "^1.1.5",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "lodash": "^4.17.11",
+    "mocha": "^3.2.0",
+    "path": "^0.12.7",
+    "pm2": "^2.4.3",
+    "request": "^2.80.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nyc": "^14.1.1"
+  }
+}
